@@ -7,7 +7,7 @@
 - Open terminal
 
 ```sh
-git clone git@github.com:<YOUR_USERNAME>/react-course-1.git
+git clone git@github.com/khouleman/react-course-1.git
 cd react-course-1
 yarn
 yarn start
