@@ -1,19 +1,19 @@
-# React course 1
+# Demuru Nathan
 
-## Getting started
 
-- Fork project to your personal repo
-- Edit README.md with your name/surname
-- Open terminal
+# TODO_React
 
+School project to discover React and learn how to develop in tsx file.
+
+## This project is in development and not finished
+
+To run this project :
 ```sh
-git clone git@github.com/khouleman/react-course-1.git
-cd react-course-1
 yarn
 yarn start
 ```
 
-## Goals
+## Goals of this project
 
 You have to create a todo list with these features:
 - Create new todo with title / description / priority / assigned to

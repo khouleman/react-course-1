@@ -1,13 +1,87 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.App .column {
+    width: 30%;
+}
+
+.droppable-col {
+    background-color: #e8c1fa;
+    padding: 10px 10px 0 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    min-height: 174px;
+}
+
+.item {
+    margin-bottom: 10px;
+    background-color: #f3f0f0;
+    color: black;
+    border: 1px solid #e8c1fa;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.item.dragging {
+    background-color: #d0c9c9;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form-todo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.m0 {
+    margin: 0
+}
+
+.appbar {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: #e8c1fa !important;
+}
+
+.inputForm {
+
+}
+
+.boxContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
